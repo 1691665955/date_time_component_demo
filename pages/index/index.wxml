@@ -1,0 +1,4 @@
+<date-time id="dateTime1" mode="time" format="YYYY-MM-DD hh:mm" text="{{timeText}}" placeholder="{{timePlaceholder}}" style="margin-left: 200rpx;margin-top: 200rpx;width: 350rpx;height: 80rpx;line-height: 80rpx;text-align: center;border-bottom: 1rpx solid rgb(223, 223, 223);color: rgb(136, 136, 136);font-size: 28rpx;"
+  binddateTimeChanged="dateTimeStartChanged1"></date-time>
+<date-time id="dateTime2" mode="date" format="YYYY-MM-DD hh:mm:ss" text="{{dateText}}" placeholder="{{datePlaceholder}}" style="margin-left: 200rpx;margin-top: 40rpx;width: 350rpx;height: 80rpx;line-height: 80rpx;text-align: center;border-bottom: 1rpx solid rgb(223, 223, 223);color: rgb(136, 136, 136);font-size: 28rpx;"
+  binddateTimeChanged="dateTimeStartChanged2"></date-time>

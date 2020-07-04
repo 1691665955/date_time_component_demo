@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "date-time": "../../components/dateTimeComponent/dateTimeComponent"
+  }
+}

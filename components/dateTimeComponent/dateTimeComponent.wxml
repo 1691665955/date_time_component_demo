@@ -1,0 +1,4 @@
+<!--components/dateTimeComponent/dateTimeComponent.wxml-->
+<picker mode="multiSelector" range="{{range}}" value="{{value}}" bindchange="_bindChange" bindcolumnchange="_bindcolumnchange">
+  <view style="{{style}}">{{(text==null || text.length == 0)?placeholder:text}}</view>
+</picker>
