@@ -168,6 +168,8 @@ Component({
         var currentDate = this.data.currentDate;
         if (currentDate == null) {
           currentDate = new Date()
+        } else {
+          currentDate = new Date(this.data.currentDate.getTime());
         }
         switch (e.detail.column) {
           case 0:
