@@ -230,13 +230,13 @@ function getMinuteRange(startTimeArray, endTimeArray, currentTimeArray) {
  */
 function getSecondRange(startTimeArray, endTimeArray, currentTimeArray) {
   if (startTimeArray[0] == currentTimeArray[0] && startTimeArray[1] == currentTimeArray[1] && startTimeArray[2] == currentTimeArray[2] && startTimeArray[3] == currentTimeArray[3] && startTimeArray[4] == currentTimeArray[4]) {
-    if (endTimeArray[0] == currentTimeArray[0] && endTimeArray[1] == currentTimeArray[1] && endTimeArray[2] == currentTimeArray[3] && endTimeArray[3] == currentTimeArray[2] && endTimeArray[4] == currentTimeArray[4]) {
+    if (endTimeArray[0] == currentTimeArray[0] && endTimeArray[1] == currentTimeArray[1] && endTimeArray[2] == currentTimeArray[2] && endTimeArray[3] == currentTimeArray[3] && endTimeArray[4] == currentTimeArray[4]) {
       return getRangeWithStartAndEnd(Number(startTimeArray[5]), Number(endTimeArray[5]));
     } else {
       return getRangeWithStartAndEnd(Number(startTimeArray[5]), 59);
     }
   } else {
-    if (endTimeArray[0] == currentTimeArray[0] && endTimeArray[1] == currentTimeArray[1] && endTimeArray[2] == currentTimeArray[3] && endTimeArray[3] == currentTimeArray[2] && endTimeArray[4] == currentTimeArray[4]) {
+    if (endTimeArray[0] == currentTimeArray[0] && endTimeArray[1] == currentTimeArray[1] && endTimeArray[2] == currentTimeArray[2] && endTimeArray[3] == currentTimeArray[3] && endTimeArray[4] == currentTimeArray[4]) {
       return getRangeWithStartAndEnd(0, Number(endTimeArray[5]));
     } else {
       return getRangeWithStartAndEnd(0, 59);
